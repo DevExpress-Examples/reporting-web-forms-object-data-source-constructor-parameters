@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/WebApplication1/Default.aspx) (VB: [Default.aspx.vb](./VB/WebApplication1/Default.aspx.vb))
+* [Default.aspx](./CS/WebApplication1/Default.aspx) (VB: [Default.aspx](./VB/WebApplication1/Default.aspx))
 * **[Default.aspx.cs](./CS/WebApplication1/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebApplication1/Default.aspx.vb))**
 <!-- default file list end -->
 # How to programmatically generate ObjectDataSource and map object data source constructor parameters to report parameters
