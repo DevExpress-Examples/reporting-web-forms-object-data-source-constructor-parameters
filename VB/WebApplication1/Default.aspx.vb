@@ -43,7 +43,8 @@ Namespace WebApplication1
                 .Font = New System.Drawing.Font("Calibri", 18.0F), _
                 .SizeF = New System.Drawing.SizeF(200, 50), _
                 .LocationF = New System.Drawing.PointF(5, 5)}
-            paramValueLbl.DataBindings.Add(New XRBinding(report.Parameters(parameterName), "Text", "Parameter value:{0}"))
+            paramValueLbl.ExpressionBindings.Add(New ExpressionBinding("Text", "?" + parameterName))
+            paramValueLbl.TextFormatString = "Parameter value:{0}"
             pageHeader.Controls.Add(paramValueLbl)
             report.Bands.Add(pageHeader)
 
@@ -53,7 +54,8 @@ Namespace WebApplication1
                 .Font = New System.Drawing.Font("Calibri", 18.0F), _
                 .SizeF = New System.Drawing.SizeF(200, 50), _
                 .LocationF = New System.Drawing.PointF(0, 0)}
-            xrLabel1.DataBindings.Add(New XRBinding("Text", Nothing, "Name", "Name: {0}"))
+            xrLabel1.ExpressionBindings.Add(New ExpressionBinding("Text", "[Name]"))
+            xrLabel1.TextFormatString = "Name: {0}"
             detail1.Controls.Add(xrLabel1)
             report.Bands.Add(detail1)
         End Sub

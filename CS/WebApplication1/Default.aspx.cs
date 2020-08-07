@@ -43,7 +43,8 @@ namespace WebApplication1 {
                 SizeF = new System.Drawing.SizeF(200, 50),
                 LocationF = new System.Drawing.PointF(5, 5)
             };
-            paramValueLbl.DataBindings.Add(new XRBinding(report.Parameters[parameterName], "Text", "Parameter value:{0}"));
+            paramValueLbl.ExpressionBindings.Add(new ExpressionBinding("Text", "?" + parameterName));
+            paramValueLbl.TextFormatString = "Parameter value: {0}";
             pageHeader.Controls.Add(paramValueLbl);
             report.Bands.Add(pageHeader);
 
@@ -54,7 +55,8 @@ namespace WebApplication1 {
                 SizeF = new System.Drawing.SizeF(200, 50),
                 LocationF = new System.Drawing.PointF(0, 0)
             };
-            xrLabel1.DataBindings.Add(new XRBinding("Text", null, "Name", "Name: {0}"));
+            xrLabel1.ExpressionBindings.Add(new ExpressionBinding("Text", "[Name]"));
+            xrLabel1.TextFormatString = "Name: {0}";
             detail1.Controls.Add(xrLabel1);
             report.Bands.Add(detail1);
         }
