@@ -1,22 +1,35 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128602693/18.2.13%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T415910)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Default.aspx](./CS/WebApplication1/Default.aspx) (VB: [Default.aspx](./VB/WebApplication1/Default.aspx))
-* **[Default.aspx.cs](./CS/WebApplication1/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebApplication1/Default.aspx.vb))**
-<!-- default file list end -->
-# How to programmatically generate ObjectDataSource and map object data source constructor parameters to report parameters
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128602693/)**
-<!-- run online end -->
+# How to Create a Report Bound to the ObjectDataSource with Constructor Parameters Linked to Report Parameters
 
 
-This example demonstrates how to programmatically generate an <a href="https://documentation.devexpress.com/#CoreLibraries/clsDevExpressDataAccessObjectBindingObjectDataSourcetopic">object data source</a> with a parameterized <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressDataAccessObjectBindingObjectDataSource_Constructortopic">constructor </a>and map object data source <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressDataAccessObjectBindingObjectDataSource_Parameterstopic">parameters</a> to <a href="https://documentation.devexpress.com/#XtraReports/CustomDocument4812">report parameters</a>. <br><br>Take note that the data source generation routine does not rely on a particular platform and is more like a 'core' functionality. <em><br></em><br>See also:<br><a href="https://documentation.devexpress.com/#XtraReports/CustomDocument17784">How to: Bind a Report to an Object Data Source</a> <br><a href="https://www.devexpress.com/Support/Center/p/T271722">How to provide ASPxReportDesigner with the SqlDataSource, ObjectDataSource, EFDataSource and ExcelDataSource at runtime</a>
+This example creates a report in code, binds it to the object data source with a parameterized [constructor](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Constructor), and maps the [data source parameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Parameters) to the [report parameters](https://docs.devexpress.com/XtraReports/4812).
 
-<br/>
+The resulting report is shown below.
+
+- End-User Report Designer for Web:
+
+    ![Report Designer - a report bound to the object data source](Images/designer.png)
+
+- Report Designer Preview: 
+
+    ![Designer Preview - a report bound to the object data source](Images/viewer.png)
+
+
+## Files to Review
+
+- [Default.aspx](CS/DXWebApplication1/Default.aspx) (VB: [Default.aspx](VB/DXWebApplication1/DXWebApplication1/Default.aspx))
+- [Default.aspx.cs](CS/DXWebApplication1/Default.aspx.cs) (VB: [Default.aspx.vb](VB/DXWebApplication1/DXWebApplication1/Default.aspx.vb))
+
+## Documentation
+
+- [Bind a Report to an Object Data Source](https://docs.devexpress.com/XtraReports/17784)
+- [Create Object Data Source at Runtime (ASP.NET Web Forms)](https://docs.devexpress.com/XtraReports/401900)
+- [Use ObjectDataSource](https://docs.devexpress.com/CoreLibraries/403658) 
+
+## More Examples
+
+- [How to Use the Object Data Source in Web Reporting Applications](https://github.com/DevExpress-Examples/Reporting-Object-Data-Source-Web-Application) 
+- [How to bind a report to an object data source](https://github.com/DevExpress-Examples/reporting-winforms-bind-object-data-source-runtime)
+- [Reporting for ASP.NET Core - Inject Data from the Entity Framework Core DbContext into a Report Using the Object Data Source](https://github.com/DevExpress-Examples/reporting-asp-net-core-inject-data-from-efcore-dbcontext-into-report-using-object-data-source)
+
 
 
