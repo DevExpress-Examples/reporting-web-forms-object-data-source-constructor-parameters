@@ -35,6 +35,3 @@ The resulting report is shown below.
 - [How to Use the Object Data Source in Web Reporting Applications](https://github.com/DevExpress-Examples/Reporting-Object-Data-Source-Web-Application) 
 - [How to bind a report to an object data source](https://github.com/DevExpress-Examples/reporting-winforms-bind-object-data-source-runtime)
 - [Reporting for ASP.NET Core - Inject Data from the Entity Framework Core DbContext into a Report Using the Object Data Source](https://github.com/DevExpress-Examples/reporting-asp-net-core-inject-data-from-efcore-dbcontext-into-report-using-object-data-source)
-
-
-
