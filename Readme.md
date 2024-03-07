@@ -2,8 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T415910)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to Create a Report Bound to the ObjectDataSource with Constructor Parameters Linked to Report Parameters
-
+# Reporting for Web Forms - How to Create a Report Bound to the ObjectDataSource with Constructor Parameters Linked to Report Parameters
 
 This example creates a report in code, binds it to the object data source with a parameterized [constructor](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Constructor), and maps the [data source parameters](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Parameters) to the [report parameters](https://docs.devexpress.com/XtraReports/4812).
 
