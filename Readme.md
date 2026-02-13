@@ -36,7 +36,7 @@ The resulting report is shown below.
 - [How to bind a report to an object data source](https://github.com/DevExpress-Examples/reporting-winforms-bind-object-data-source-runtime)
 - [Reporting for ASP.NET Core - Inject Data from the Entity Framework Core DbContext into a Report Using the Object Data Source](https://github.com/DevExpress-Examples/reporting-asp-net-core-inject-data-from-efcore-dbcontext-into-report-using-object-data-source)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-object-data-source-constructor-parameters&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-forms-object-data-source-constructor-parameters&~~~was_helpful=no)
 
